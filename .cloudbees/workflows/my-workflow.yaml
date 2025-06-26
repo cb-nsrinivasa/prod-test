@@ -16,9 +16,6 @@ jobs:
         uses: docker://alpine:3.18
         id: step0
         run: |
-           env
-           # /cloudbees/runtime --version
-           # ls /cloudbees/protected/bin
            echo "=== string before masking ==="
            echo "hello world"
            echo -n "hello" | cloudbees mask
