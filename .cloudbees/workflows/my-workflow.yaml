@@ -17,7 +17,7 @@ jobs:
         id: step0
         run: |
            env
-           /cloudbees/runtime --version
+           # /cloudbees/runtime --version
            ls /cloudbees/protected/bin
            echo "=== string before masking ==="
            echo "hello world"
